@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>My Portfolio</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Edu+QLD+Hand:wght@400..700&family=Poppins:wght@100..900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+ 
+</head>
+
+<body>
+
+  <nav id="desktop-nav">
+    <div class="logo">VIKAS SHARMA</div>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#project">Project</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <nav id="hamburger-nav">
+    <div class="logo">VIKAS SHARMA</div>
+    <div class="hamburger-menu">
+      <div class="hamburger-icon" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <ul class="menu-links">
+        <li><a href="#about" onclick="toggleMenu()">About</a></li>
+        <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+        <li><a href="#project" onclick="toggleMenu()">Project</a></li>
+        <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  <section id="profile">
+    <div class = "section__pic-container">
+      <img src="mypic.jpg" alt="My Image"  >
+    </div>
+    <div class="section__text">
+      <p class="section__text__p1">"HELLO ,I AM "</p>  
+      <h1 class="title">VIKAS SHARMA</h1>
+      <p class="section__text__p2"> Software Developer</p>
+      <div class="btn-container">
+        <button class = "btn btn-color-2" onclick="window.open('./resume.pdf')">Download CV</button>
+         <button class = "btn btn-color-1" onclick="loction.href('./#contact')"')">CONTACT INFO</button></div>
+      <div id="socials-container">
+        <img src="./linkedin1.png" alt="My LinkedIn profile" class="icon" onclick="location.href='https://www.linkedin.com/in/vikas-kumar-sharma--dev'">
+
+        <img src="./download.png" alt="My Github profile" class="icon" onclick="location.href='https://x.com/vikaskumardev_1?t=qewCzDdSKInhTTaotRCuaA&s=08'">
+      </div>
+        
+    </div>
+  </section> 
+  <section id="about">
+    <p class="section__text__p1">Get to know More</p>
+    <h1 class="title">About Me</h1>
+    <div class="section-container">
+      <div class="section__pic-container">
+    <!-- <img src="./About.png" alt="Profile picture" class="aboutpic" />-->
+      </div>
+      <div class="about-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+             <img src="./experience.png" alt="Experience icon" class="icon"/>          
+             <h3>Software Developer</h3>
+             
+        </div>
+          <div class="details-container">
+            <img src="./education.png" alt="Education icon" class="icon"/>
+            <h3>Education</h3>
+            <p>B.Sc. Bachelors Degree<br/>Information Technology</p>
+          </div>
+        </div>
+        <div class="text-container">
+          <p>I am a dedicated and enthusiastic software developer with a strong foundation in information technology. I am passionate about creating efficient and user-friendly software solutions. With a solid educational background and hands-on experience, I am committed to continuous learning and growth in the field of software development.</p>
+        </div>
+      </div>
+    </div>
+    <img src="./arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#experience'"/>
+  </section>
+  
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Experience</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Frontend Development</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>CSS</h3>
+                  <p>Intermidiate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Bootstrap</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>JavaScript</h3>
+                  <p>Intermidiate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>React</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+             
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Android-Development</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Xml</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Core java</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Kotlin</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Git</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+
+    <img src="./arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#experience'"/>
+  </section>
+
+  <section id="project">
+    
+    <h1 class="title">Projects</h1>
+    <div class="experience-details-container">
+      <div class="about-containers">
+        <div class="details-container color-container">
+          <div class ="article-container">
+            <img src="./Project1.png" alt="Project 1" class="project-img"/>
+          </div>
+          <h2 class="experience-sub-title project-title">A Student Attendance Management System
+ </h2>
+          
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+        <p class="section__text__p1">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+          <div class="contact-info-container">
+            <img
+              src="email.png"
+              alt="Email icon"
+              class="icon contact-icon email-icon"
+            />
+            <p><a href="mailto:sharmavikas95@gmail.com">sharmavikas95@gmail.com</a></p>
+          </div>
+          <div class="contact-info-container">
+            <img
+              src="linkedin.png"
+              alt="LinkedIn icon"
+              class="icon contact-icon"
+            />
+            <p><a href="https://www.linkedin.com/in/vikas-kumar-sharma--dev">LinkedIn</a></p>
+          </div>
+        </div>
+      </section>
+      <footer>
+        <nav>
+          <div class="nav-links-container">
+            <ul class="nav-links">
+              <li><a href="#about">About</a></li>
+              <li><a href="#experience">Experience</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+        </nav>
+        <p>Copyright &#169;. All Rights Reserved.</p>
+      </footer>
+      <script src="script.js"></script>
+    </body>
+  </html>
+
